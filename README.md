@@ -11,7 +11,7 @@ Used to pivot through an exposed Squid proxy (port 3128) to access internal netw
 * Transition from external foothold → internal access chain
 
 ```
-python3 spose.py --proxy http://192.168.52.189:3128 --target 192.168.52.189
+python3 spose.py --proxy http://<<target-ip-addr>>:3128 --target <<target-ip-addr>>
 ```
 output looks like
 ```
